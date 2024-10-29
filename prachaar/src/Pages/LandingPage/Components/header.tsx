@@ -41,6 +41,7 @@ function Header({}: Props) {
                   <button>Login</button>
                   <button>Sign up</button>
                 </div>
+                <div></div>
               </div>
             </div>
           </Container>
