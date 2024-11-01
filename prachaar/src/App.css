@@ -349,3 +349,106 @@ button {
 .green_color {
   color: #408a7e;
 }
+.about_prachaar__wrapper {
+  width: 100%;
+  height: 50vh;
+  background-color: #fcf6ee;
+  display: flex;
+  align-items: center;
+}
+.about-page__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.prachaar_title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  line-height: 90px;
+}
+.prachaar_title span {
+  color: #408a7e;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.prachaar_title h1:last-child {
+  color: #b3b3b3;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: justified;
+}
+.prachaar_text {
+  margin-top: 30px;
+  color: #b3b3b3;
+  font-size: 24px;
+  line-height: 40px;
+}
+.about_prachaar {
+  display: flex;
+  flex-direction: column;
+}
+.whyPrachaar_page {
+  margin-top: 70px;
+}
+.why_prachaar {
+  padding: 40px 20px;
+  display: flex;
+  align-items: center;
+}
+.about_prachaar .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+.about_prachaar .title span {
+  color: #408a7e;
+}
+.prachaar_text {
+  text-align: center;
+  font-size: 20px;
+}
+.about_prachaar button {
+  width: 200px;
+  padding: 10px 17px;
+  align-self: center;
+  margin-top: 60px;
+  font-size: 13px;
+}
+.customers {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.customers_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 20px;
+}
+.customers_title span {
+  color: #408a7e;
+}
+.customer_text {
+  width: 1170px;
+}
+.customer_text p {
+  font-family: " Noto Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: center;
+  color: #b3b3b3;
+}
+.customer_text span {
+  color: #408a7e;
+}

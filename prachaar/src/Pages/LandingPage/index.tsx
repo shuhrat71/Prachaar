@@ -2,6 +2,7 @@ import Container from "@mui/material/Container";
 import { Button } from "@mui/material";
 import Header from "./Components/header";
 import speaker from "./Components/img/speaker.svg";
+import prachaarList from "./Components/img/prachaarList.png";
 import offer from "./Components/img/offer.svg";
 import connectTeam from "./Components/img/connectTeam.svg";
 import stockAlerts from "./Components/img/stockAlerts.svg";
@@ -462,6 +463,85 @@ function Home() {
                     </Button>
                   </div>
                 </div>
+              </div>
+            </div>
+          </div>
+        </Container>
+      </section>
+      <section className="about_prachaar__wrapper">
+        <Container maxWidth="xl">
+          <div className="about-page__wrapper">
+            <div className="prachaar_title">
+              <h1>
+                About <span>Prachaar+</span>
+              </h1>
+              <h1>
+                <span>Prachaar +</span> is communication platform built on
+                WhatsApp APIs
+              </h1>
+            </div>
+            <div className="prachaar_text">
+              <p>
+                Our platform was developed with the mission of providing
+                businesses with an efficient and user-friendly communication
+                solution that leverages the widespread popularity and
+                familiarity of your business. With our platform, you can
+                seamlessly campaign about the discounts, offers, promotions, new
+                Recommendation and about stock alerts etc..
+              </p>
+            </div>
+          </div>
+        </Container>
+      </section>
+      <section className="whyPrachaar_page">
+        <Container maxWidth="xl">
+          <div className="why_prachaar">
+            <div className="list_img">
+              <img src={prachaarList} alt="" />
+            </div>
+            <div className="about_prachaar">
+              <div className="title">
+                <h1>
+                  Why <span>Prachaar +</span>
+                </h1>
+              </div>
+              <div className="prachaar_text">
+                <p>
+                  Our platform is designed to be easy to set up and use,
+                  allowing you to get started quickly and efficiently. Our
+                  platform enhances the customer experience, resulting in better
+                  open and response rates. You can trust our reliable and robust
+                  system to deliver your messages effectively.
+                </p>
+              </div>
+              <Button
+                variant="contained"
+                sx={{
+                  background: "rgba(64, 138, 126, 1)",
+                  color: "#fff",
+                  "&:hover": {
+                    backgroundColor: "rgba(51, 110, 100, 1)",
+                  },
+                }}
+              >
+                Start free trail now
+              </Button>
+            </div>
+          </div>
+          <div className="customers">
+            <div className="customers_title">
+              <h1>
+                Position yourself where <span>your customers</span> are.
+              </h1>
+              <div className="customer_text">
+                <p>
+                  <span>Prachaar+</span> is a customer communication platform
+                  where you can send bulk messages to your customer using
+                  whatsapp.<br></br>
+                  <span>Prachaar+</span> enables sales, customer support and
+                  marketing teams to use a single platform to send bulk
+                  messages, broadcasts, template messages.
+                </p>
               </div>
             </div>
           </div>
