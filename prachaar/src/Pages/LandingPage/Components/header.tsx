@@ -24,7 +24,7 @@ function Header({}: Props) {
                     <a href="">Home</a>
                   </li>
                   <li>
-                    <a href="">Features </a>
+                    <a href="#feature">Features </a>
                   </li>
                   <li>
                     <a href="">Pricing</a>

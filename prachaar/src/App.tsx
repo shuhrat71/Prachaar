@@ -5,8 +5,7 @@ import From from "./Pages/LandingPage/demoFrom";
 function App() {
   return (
     <>
-      {/* <Home /> */}
-      <From />
+      <Home />
     </>
   );
 }
