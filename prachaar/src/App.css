@@ -143,6 +143,7 @@ button {
 }
 .feature__title {
   width: 470px;
+  padding: 0 20px;
   padding-bottom: 80px;
 }
 .feature__title h1 {
@@ -184,4 +185,167 @@ button {
   flex-direction: column;
   align-items: center;
   row-gap: 40px;
+}
+.free_trail_page {
+  width: 100%;
+  height: 130vh;
+  padding: 50px 0;
+  background-image: url("./Pages/LandingPage/Components/img/free_trail.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.trail-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.month_or_year_btn__wrapper {
+  padding: 10px 20px;
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 0px 3px 50px 0px #0000001a;
+  border-radius: 8px;
+  gap: 10px;
+}
+.month_or_year_btn__wrapper button {
+  padding: 10px 35px;
+}
+.trail-title {
+  padding: 20px 0;
+}
+.trail-title h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 45px;
+  text-align: left;
+}
+.trail-title span {
+  color: #408a7e;
+}
+.trail-text {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+.trail-text p {
+  width: 1100px;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  color: #b3b3b3;
+}
+.get_start_btn {
+  padding-bottom: 50px;
+}
+.trail_plan__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trail_plan__wrapper .plan_title {
+  padding-bottom: 30px;
+}
+.standart-trail_card_body {
+  width: 320px;
+  padding: 25px 20px;
+  background-color: #408a7e;
+  border-radius: 8px;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  box-shadow: 0px 3px 50px 0px #0000001a;
+  transition: 1s;
+  position: relative;
+}
+.standart-trail_card_body:hover {
+  box-shadow: 0 0 0 0;
+  cursor: pointer;
+}
+.background-egg {
+  width: 160%;
+  z-index: 1;
+  height: 570px;
+  top: 60px;
+
+  position: absolute;
+  border-radius: 50%;
+  background-color: #bafff41c;
+}
+.trail_crad__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trail_payment {
+  display: flex;
+  position: relative;
+  color: #fff;
+}
+.trail_payment span {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 30px;
+}
+.trail_payment p {
+  position: absolute;
+  top: -30px;
+  left: -14px;
+}
+.trail_card_title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.trail_card_title .card_text {
+  text-align: center;
+}
+.news_card {
+  padding: 28px 25px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 1;
+  row-gap: 10px;
+}
+.coming_soon_btn__wrapper {
+  padding: 20px 0 0 0;
+}
+.coming_soon_btn__wrapper button {
+  width: 100%;
+  padding: 11px 20px;
+  border-radius: 39px;
+  box-shadow: 0px 3px 50px 0px #0000001a;
+}
+.news_card .card_list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.advanced_card,
+.basic_card {
+  background-color: white;
+}
+.advanced_card .news_card,
+.basic_card .news_card {
+  background-color: #f9f8fe;
+}
+.white_color {
+  color: #fff;
+}
+.green_color {
+  color: #408a7e;
 }
